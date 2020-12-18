@@ -1,0 +1,169 @@
+body {
+    background-color: blue;
+    background-image: url("https://i.blogs.es/c7decb/estudiantes-ingenieria/1366_2000.jpg");
+    background-size: cover;
+    width:100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+header {
+display: flex;
+flex-direction: column;
+display: block;
+padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#survey-form {
+    background-color: rgb(2, 2, 2, 0.7);
+    border-radius: 0.25rem;
+    width: 100%;
+    height: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (min-width: 768px){
+    .container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px){
+    .container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 480px){
+    form {
+    padding: 2.5rem;
+}
+}
+@media (max-width: 350px){
+    #survey-form{
+        width: 100vw;
+    }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: checkbox;
+    padding: initial;
+    border: initial;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button {
+    border: none;
+    appearance: button;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    font: 400 13.3333px Arial;
+    color:rgb(239, 239, 239);
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+div{
+    margin-top: 4px;
+}
+
